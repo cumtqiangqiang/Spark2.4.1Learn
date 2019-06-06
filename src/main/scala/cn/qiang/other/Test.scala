@@ -14,6 +14,9 @@ object Test {
     val p = new People()
     p.eat("aa","Cola").play("Car")
 
+    val a = 1<<2
+    print(a)
+
   }
 
   class Animal(val name:String,val age:Int){
